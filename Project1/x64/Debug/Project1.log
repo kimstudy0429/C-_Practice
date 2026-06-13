@@ -1,3 +1,0 @@
-﻿  FileName.cpp
-C:\Users\haals\OneDrive\Desktop\C_P\Project1\Project1\FileName.cpp(3,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-C:\Users\haals\OneDrive\Desktop\C_P\Project1\Project1\FileName.cpp(7,8): error C3892: 'arr1': const인 변수에 할당할 수 없습니다.

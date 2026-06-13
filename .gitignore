@@ -1,0 +1,10 @@
+.vs/
+x64/
+Project1/x64/
+Debug/
+Release/
+*.ilk
+*.log
+*.pdb
+*.idb
+*.tlog
