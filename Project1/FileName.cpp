@@ -55,7 +55,7 @@ void main() {
 }
 #endif
 
-#if 1
+#if 0
 // 논리 연산자
 // 참이면 1, 거짓이면 0을 반환한다.
 void main() {
@@ -67,5 +67,17 @@ void main() {
 	cout << (a && b) << endl;	//false
 	cout << (a || b) << endl;	//true
 
+}
+#endif
+
+#if 1
+// 비트 연산자
+void main() {
+	int a = 5;		//0000 0101
+	int b = 3;		//0000 0011
+	cout << (a & b) << endl;	//0000 0001 -> 1
+	cout << (a | b) << endl;	//0000 0111 -> 7
+	cout << (a ^ b) << endl;	//0000 0110 -> 6
+	cout << (~a) << endl;		//1111 1010 -> -6
 }
 #endif
