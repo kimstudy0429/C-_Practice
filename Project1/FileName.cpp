@@ -37,7 +37,7 @@ void main() {
 }
 #endif
 
-#if 1
+#if 0
 // 비교 연산자
 // 참이면 1, 거짓이면 0을 반환한다.
 void main() {
@@ -51,6 +51,21 @@ void main() {
 	cout << (a < b) << endl;	//true
 	cout << (a >= b) << endl;	//false
 	cout << (a <= b) << endl;	//true
+
+}
+#endif
+
+#if 1
+// 논리 연산자
+// 참이면 1, 거짓이면 0을 반환한다.
+void main() {
+	int a = 0;
+	int b = 1;
+	cout << !a << endl;	//true
+	cout << !b << endl;
+
+	cout << (a && b) << endl;	//false
+	cout << (a || b) << endl;	//true
 
 }
 #endif
