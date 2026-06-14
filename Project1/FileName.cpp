@@ -18,7 +18,7 @@ void main() {
 }
 #endif
 //연산자
-#if 1
+#if 0
 void main() {
 	char a, b;
 	a = 10;		//대입 연산자
@@ -33,6 +33,24 @@ void main() {
 	--b;		//전위형 감소 연산자
 	cout << +b << endl;
 
+
+}
+#endif
+
+#if 1
+// 비교 연산자
+// 참이면 1, 거짓이면 0을 반환한다.
+void main() {
+	int a, b;
+	a = 10;
+	b = 20;
+
+	cout << (a == b) << endl;	//false
+	cout << (a != b) << endl;	//true
+	cout << (a > b) << endl;	//false
+	cout << (a < b) << endl;	//true
+	cout << (a >= b) << endl;	//false
+	cout << (a <= b) << endl;	//true
 
 }
 #endif
