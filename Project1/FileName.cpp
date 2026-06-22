@@ -79,12 +79,5 @@ void main() {
 	cout << (a | b) << endl;	//0000 0111 -> 7
 	cout << (a ^ b) << endl;	//0000 0110 -> 6
 	cout << (~a) << endl;		//1111 1010 -> -6
-	cout << (a << 1) << endl;	//0000 1010 -> 10
-	cout << (a >> 1) << endl;	//0000 0010 -> 2
-
-	char c = 1,d;
-	d = c << 7;
-	cout << +d << endl;	//1000 0000 -> -128
-	cout << (d >> 1) << endl;	//1100 0000 -> -64
 }
 #endif
